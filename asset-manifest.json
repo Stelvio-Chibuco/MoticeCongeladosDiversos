@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MoticeCongeladosDiversos/static/css/main.58fa9894.css",
+    "main.css": "/MoticeCongeladosDiversos/static/css/main.02297fec.css",
     "main.js": "/MoticeCongeladosDiversos/static/js/main.90fa9db4.js",
     "static/css/487.bb36206c.chunk.css": "/MoticeCongeladosDiversos/static/css/487.bb36206c.chunk.css",
     "static/js/487.bc872580.chunk.js": "/MoticeCongeladosDiversos/static/js/487.bc872580.chunk.js",
@@ -41,7 +41,7 @@
     "static/media/skill.svg": "/MoticeCongeladosDiversos/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/MoticeCongeladosDiversos/index.html",
     "static/media/talksCardBack.svg": "/MoticeCongeladosDiversos/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.58fa9894.css.map": "/MoticeCongeladosDiversos/static/css/main.58fa9894.css.map",
+    "main.02297fec.css.map": "/MoticeCongeladosDiversos/static/css/main.02297fec.css.map",
     "main.90fa9db4.js.map": "/MoticeCongeladosDiversos/static/js/main.90fa9db4.js.map",
     "487.bb36206c.chunk.css.map": "/MoticeCongeladosDiversos/static/css/487.bb36206c.chunk.css.map",
     "487.bc872580.chunk.js.map": "/MoticeCongeladosDiversos/static/js/487.bc872580.chunk.js.map",
@@ -49,7 +49,7 @@
     "990.163fefea.chunk.js.map": "/MoticeCongeladosDiversos/static/js/990.163fefea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58fa9894.css",
+    "static/css/main.02297fec.css",
     "static/js/main.90fa9db4.js"
   ]
 }
