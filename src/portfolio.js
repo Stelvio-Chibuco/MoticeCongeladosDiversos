@@ -180,50 +180,50 @@ const bigProjects = {
   subtitle: "Congelados e Diversos",
   projects: [
     {
-      image: require("./assets/images/IMG_7861.JPG"),
+      image: require("./assets/images/MG_7753.JPG"),
       projectName: "",
       projectDesc: "",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/_MG_7871.JPG"),
+      image: require("./assets/images/MG_7758.JPG"),
       projectName: "",
       projectDesc:
         "",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
-      image: require("./assets/images/_MG_7879.JPG"),
+      image: require("./assets/images/MG_7752.JPG"),
       projectName: "",
       projectDesc: "",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/_MG_7878.JPG"),
+      image: require("./assets/images/MG_7759.JPG"),
       projectName: "",
       projectDesc:
         "",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     }
@@ -243,237 +243,237 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7748.JPG"),
-      imageAlt: "",
+      image: require("./assets/images/MG_7748.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7764.JPG"),
-      imageAlt: "UniSave Logo",
+      image: require("./assets/images/MG_7764.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7757.JPG"),
-      imageAlt: "UJC Logo",
+      image: require("./assets/images/MG_7757.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },    
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7762.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7762.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },    
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7754.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7754.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7795.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7795.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7787.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7787.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7794.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7794.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7805.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7805.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7808.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7808.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7746.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7746.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7738.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7738.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7739.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7739.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7747.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7747.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7740.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7740.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7818.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7818.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7813.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7813.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7812.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7812.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7785.JPG"),
-      imageAlt: "CISCO badge",
+      image: require("./assets/images/MG_7785.JPG"),
+      imageAlt: "Produto",
       footerLink: [
         {
           name: "Whatsapp",
-          url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
+          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
     },               
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/_MG_7781.JPG"),
-      imageAlt: "PWA Logo",
-      footerLink: [{name: "Whatsapp", url: "https://wa.me/258847669125?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."}]
+      image: require("./assets/images/MG_7781.JPG"),
+      imageAlt: "Produto",
+      footerLink: [{name: "Whatsapp", url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."}]
     }
   ],
   display: true // Set false to hide this section, defaults to true
