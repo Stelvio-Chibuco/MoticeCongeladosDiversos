@@ -290,6 +290,24 @@ const achievementSection = {
         }
       ]
     },
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+
+
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Blogs Section
+
+const blogSection = {
+  title: "Blog",
+  subtitle:
+    "Com amor pelo desenvolvimento de coisas legais, adoro escrever e ensinar aos outros o que aprendi.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
+  blogs: [
     {
       image: require("./assets/images/MG_7795.jpg"),
       imageAlt: "Produto",
@@ -339,7 +357,20 @@ const achievementSection = {
           url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
-    },
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Talks Sections
+
+const talkSection = {
+  title: "PALESTRAS",
+  subtitle: emoji(
+    "AdoroO COMPARTILHAR MEU CONHECIMENTO LIMITADO E RECEBER UM CRACHÁ DE PALESTRANTE 😅"
+  ),
+
+  talks: [
     {
       image: require("./assets/images/MG_7746.jpg"),
       imageAlt: "Produto",
@@ -389,7 +420,17 @@ const achievementSection = {
           url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
-    },
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Podcast Section
+
+const podcastSection = {
+  title: emoji("Podcast🎙️"),
+  subtitle: "Adoro falar sobre mim e tecnologia",
+  podcast: [
     {
       image: require("./assets/images/MG_7818.jpg"),
       imageAlt: "Produto",
@@ -436,76 +477,9 @@ const achievementSection = {
       footerLink: [{name: "Whatsapp", url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."}]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-// Blogs Section
-
-const blogSection = {
-  title: "Blog",
-  subtitle:
-    "Com amor pelo desenvolvimento de coisas legais, adoro escrever e ensinar aos outros o que aprendi.",
-  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://nhamahangotec.blogspot.com/",
-      title: "DEPIOMENTO E RECOMENDAÇÃO",
-      description: "Credibilidade e impacto positivo"
-    },
-    {
-      url: "https://cyber-gorilla.blogspot.com/2023/04/instalacao-do-servidor-ubuntu-2004-step.html",
-      title:
-        "Instalação do Servidor Ubuntu 20.04 e Instalação da interface gráfica/GUI",
-      description:
-        "Você deseja aprender a instalar e configurar o Ubuntu server em menos de 30 minutos?"
-    },
-    {
-      url: "https://cyber-gorilla.blogspot.com/2023/10/linkedin-sign-up-e-personalizacao.html",
-      title: "LinkedIn Sign up e Personalizacao",
-      description:
-        "Vamos explorar os princípios essenciais, teorias relevantes e conceitos-chave que você precisará compreender para ter sucesso neste mini-curso."
-    },
-    {
-      url: "https://cyber-gorilla.blogspot.com/2024/03/ciberseguranca-em-mocambique.html",
-      title: "Cibersegurança em Moçambique",
-      description:
-        "A cibersegurança é uma preocupação crescente em todo o mundo, e Moçambique não é exceção. Vamos explorar os principais tipos de ataques cibernéticos que afetam o país e fornecer dicas práticas de como se proteger."
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "PALESTRAS",
-  subtitle: emoji(
-    "AdoroO COMPARTILHAR MEU CONHECIMENTO LIMITADO E RECEBER UM CRACHÁ DE PALESTRANTE 😅"
-  ),
-
-  talks: [
-    {
-      title: "OpenGL no Ubuntu",
-      subtitle:
-        "Breve demonstração Teórica e prática para desenvolvimento OpenGL no sistema Linux (Ubuntu 20.04 LTS).",
-      slides_url:
-        "https://cyber-gorilla.blogspot.com/2023/11/slides-opengl.html",
-      event_url:
-        "https://www.youtube.com/playlist?list=PL7uu5HDOU0qI4kWWEV1g-vqrGNePa-bmG"
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast🎙️"),
-  subtitle: "Adoro falar sobre mim e tecnologia",
-
   // Please Provide with Your Podcast embeded Link
   podcast: [""],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
