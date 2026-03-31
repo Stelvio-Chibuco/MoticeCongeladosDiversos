@@ -180,7 +180,7 @@ const bigProjects = {
   subtitle: "Congelados e Diversos",
   projects: [
     {
-      image: require("./assets/images/MG_7753.JPG"),
+      image: require("./assets/images/MG_7753.jpg"),
       projectName: "",
       projectDesc: "",
       footerLink: [
@@ -192,7 +192,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/MG_7758.JPG"),
+      image: require("./assets/images/MG_7758.jpg"),
       projectName: "",
       projectDesc:
         "",
@@ -204,7 +204,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/MG_7752.JPG"),
+      image: require("./assets/images/MG_7752.jpg"),
       projectName: "",
       projectDesc: "",
       footerLink: [
@@ -216,7 +216,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/MG_7759.JPG"),
+      image: require("./assets/images/MG_7759.jpg"),
       projectName: "",
       projectDesc:
         "",
@@ -243,7 +243,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7748.JPG"),
+      image: require("./assets/images/MG_7748.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -255,7 +255,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7764.JPG"),
+      image: require("./assets/images/MG_7764.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -267,7 +267,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7757.JPG"),
+      image: require("./assets/images/MG_7757.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -279,7 +279,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7762.JPG"),
+      image: require("./assets/images/MG_7762.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -291,7 +291,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7754.JPG"),
+      image: require("./assets/images/MG_7754.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -303,7 +303,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7795.JPG"),
+      image: require("./assets/images/MG_7795.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -315,7 +315,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7787.JPG"),
+      image: require("./assets/images/MG_7787.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -327,7 +327,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7794.JPG"),
+      image: require("./assets/images/MG_7794.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -339,7 +339,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7805.JPG"),
+      image: require("./assets/images/MG_7805.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -351,7 +351,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7808.JPG"),
+      image: require("./assets/images/MG_7808.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -363,7 +363,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7746.JPG"),
+      image: require("./assets/images/MG_7746.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -375,7 +375,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7738.JPG"),
+      image: require("./assets/images/MG_7738.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -387,7 +387,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7739.JPG"),
+      image: require("./assets/images/MG_7739.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -399,7 +399,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7747.JPG"),
+      image: require("./assets/images/MG_7747.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -411,7 +411,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7740.JPG"),
+      image: require("./assets/images/MG_7740.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -423,7 +423,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7818.JPG"),
+      image: require("./assets/images/MG_7818.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -435,7 +435,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7813.JPG"),
+      image: require("./assets/images/MG_7813.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -447,7 +447,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7812.JPG"),
+      image: require("./assets/images/MG_7812.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -459,7 +459,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7785.JPG"),
+      image: require("./assets/images/MG_7785.jpg"),
       imageAlt: "Produto",
       footerLink: [
         {
@@ -471,7 +471,7 @@ const achievementSection = {
     {
       title: "",
       subtitle: "",
-      image: require("./assets/images/MG_7781.JPG"),
+      image: require("./assets/images/MG_7781.jpg"),
       imageAlt: "Produto",
       footerLink: [{name: "Whatsapp", url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."}]
     }
