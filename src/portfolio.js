@@ -85,7 +85,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Universidade Save",
-      logo: require("./assets/images/UniSave_logo.png"),
+      logo: require("./assets/images/inageLogo.png"),
       subHeader: "Especialização em Engenharia de Desenvolvimento de Sistemas",
       duration: "Fevereiro de 2022 - Dezembro de 2023",
       desc: "Participou das Jornadas Cientificas II na UJC.",
@@ -95,7 +95,7 @@ const educationInfo = {
     },
     {
       schoolName: "Universidade Save",
-      logo: require("./assets/images/UniSave_logo.png"),
+      logo: require("./assets/images/inageLogo.png"),
       subHeader:
         "Licenciatura em Informática Com Especialização em Engenharia de Desenvolvimento de Sistemas",
       duration: "Março de 2020 - Outubro de 2024",
@@ -141,19 +141,19 @@ const workExperiences = {
     {
       role: "Estágio Técnico Profissional",
       company: "UniSave",
-      companylogo: require("./assets/images/UniSave_logo.png"),
+      companylogo: require("./assets/images/inageLogo.png"),
       date: "Fevereiro 2023 – Maio 2023"
     },
     {
       role: "Estágio de Desenvolvimento de Software",
       company: "UniSave",
-      companylogo: require("./assets/images/UniSave_logo.png"),
+      companylogo: require("./assets/images/inageLogo.png"),
       date: "Julho 2023 – Novembro 2023"
     },
     {
       role: "Estágio Técnico Profissional",
       company: "CMC De Xai-Xai",
-      companylogo: require("./assets/images/cmcxxLogo.png"),
+      companylogo: require("./assets/images/inageLogo.png"),
       date: "Julho 2024 – Maio 2025"
     },
     {
@@ -235,14 +235,14 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Congelados e Diversos 🥶🍽️"),
+  title: emoji(""),
   subtitle:
     "",
 
   achievementsCards: [
     {
       image: require("./assets/images/MG_7748.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -252,7 +252,7 @@ const achievementSection = {
     },
     {
       image: require("./assets/images/MG_7764.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -262,7 +262,7 @@ const achievementSection = {
     },
     {
       image: require("./assets/images/MG_7757.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -272,24 +272,14 @@ const achievementSection = {
     },    
     {
       image: require("./assets/images/MG_7762.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
           url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
         }
       ]
-    },    
-    {
-      image: require("./assets/images/MG_7754.jpg"),
-      imageAlt: "Produto",
-      footerLink: [
-        {
-          name: "Whatsapp",
-          url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."
-        }
-      ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -298,14 +288,14 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blog",
+  title: "",
   subtitle:
-    "Com amor pelo desenvolvimento de coisas legais, adoro escrever e ensinar aos outros o que aprendi.",
+    "",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       image: require("./assets/images/MG_7795.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -315,7 +305,7 @@ const blogSection = {
     },
     {
       image: require("./assets/images/MG_7787.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -325,7 +315,7 @@ const blogSection = {
     },
     {
       image: require("./assets/images/MG_7794.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -335,7 +325,7 @@ const blogSection = {
     },
     {
       image: require("./assets/images/MG_7805.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -345,7 +335,7 @@ const blogSection = {
     },
     {
       image: require("./assets/images/MG_7808.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -360,15 +350,15 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "PALESTRAS",
+  title: "",
   subtitle: emoji(
-    "AdoroO COMPARTILHAR MEU CONHECIMENTO LIMITADO E RECEBER UM CRACHÁ DE PALESTRANTE 😅"
+    ""
   ),
 
   talks: [
     {
       image: require("./assets/images/MG_7746.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -378,7 +368,7 @@ const talkSection = {
     },
     {
       image: require("./assets/images/MG_7738.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -388,7 +378,7 @@ const talkSection = {
     },
     {
       image: require("./assets/images/MG_7739.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -398,7 +388,7 @@ const talkSection = {
     },
     {
       image: require("./assets/images/MG_7747.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -408,7 +398,7 @@ const talkSection = {
     },
     {
       image: require("./assets/images/MG_7740.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -423,12 +413,12 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast🎙️"),
-  subtitle: "Adoro falar sobre mim e tecnologia",
+  title: emoji(""),
+  subtitle: "",
   podcast: [
     {
       image: require("./assets/images/MG_7818.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -438,7 +428,7 @@ const podcastSection = {
     },
     {
       image: require("./assets/images/MG_7813.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -448,7 +438,7 @@ const podcastSection = {
     },
     {
       image: require("./assets/images/MG_7812.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -458,7 +448,7 @@ const podcastSection = {
     },
     {
       image: require("./assets/images/MG_7785.jpg"),
-      imageAlt: "Produto",
+      imageAlt: "",
       footerLink: [
         {
           name: "Whatsapp",
@@ -467,13 +457,11 @@ const podcastSection = {
       ]
     },               
     {
-      image: require("./assets/images/MG_7781.jpg"),
-      imageAlt: "Produto",
+      image: require("./assets/images/product3.jpg"),
+      imageAlt: "",
       footerLink: [{name: "Whatsapp", url: "https://wa.me/258875631636?text=Olá!%20Gostaria%20de%20ter%20mais%20informações%20sobre%20os%20vossos%20produtos%20e%20serviços."}]
     }
   ],
-  // Please Provide with Your Podcast embeded Link
-  podcast: [""],
   display: true // Set false to hide this section, defaults to true
 };
 

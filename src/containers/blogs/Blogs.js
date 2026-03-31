@@ -1,12 +1,21 @@
 import React, {useState, useEffect, useContext} from "react";
 import "./Blog.scss";
-import BlogCard from "../../components/blogCard/BlogCard";
+import "../StartupProjects/StartupProjects.scss";
 import {blogSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function Blogs() {
   const {isDark} = useContext(StyleContext);
   const [mediumBlogs, setMediumBlogs] = useState([]);
+
+  function openUrlInNewTab(url) {
+    if (!url) {
+      return;
+    }
+    var win = window.open(url, "_blank");
+    win.focus();
+  }
+
   function setMediumBlogsFunction(array) {
     setMediumBlogs(array);
   }
@@ -60,34 +69,105 @@ export default function Blogs() {
           </p>
         </div>
         <div className="blog-main-div">
-          <div className="blog-text-div">
+          <div className="projects-container">
             {blogSection.displayMediumBlogs !== "true" ||
             mediumBlogs === "Error"
               ? blogSection.blogs.map((blog, i) => {
                   return (
-                    <BlogCard
+                    <div
                       key={i}
-                      isDark={isDark}
-                      blog={{
-                        url: blog.url,
-                        image: blog.image,
-                        title: blog.title,
-                        description: blog.description
-                      }}
-                    />
+                      className={
+                        isDark
+                          ? "dark-mode project-card project-card-dark"
+                          : "project-card project-card-light"
+                      }
+                    >
+                      {blog.image ? (
+                        <div className="project-image">
+                          <img
+                            src={blog.image}
+                            alt={blog.imageAlt || blog.title || "Blog"}
+                            className="card-image"
+                          ></img>
+                        </div>
+                      ) : null}
+                      <div className="project-detail">
+                        {/* <h5
+                          className={
+                            isDark ? "dark-mode card-title" : "card-title"
+                          }
+                        >
+                          {blog.title || blog.imageAlt || `Blog ${i + 1}`}
+                        </h5> */}
+                        <p
+                          className={
+                            isDark
+                              ? "dark-mode card-subtitle"
+                              : "card-subtitle"
+                          }
+                        >
+                          {blog.description || blog.subtitle || ""}
+                        </p>
+                        {blog.footerLink ? (
+                          <div className="project-card-footer">
+                            {blog.footerLink.map((link, index) => {
+                              return (
+                                <span
+                                  key={index}
+                                  className={
+                                    isDark
+                                      ? "dark-mode project-tag"
+                                      : "project-tag"
+                                  }
+                                  onClick={() => openUrlInNewTab(link.url)}
+                                >
+                                  {link.name}
+                                </span>
+                              );
+                            })}
+                          </div>
+                        ) : null}
+                      </div>
+                    </div>
                   );
                 })
               : mediumBlogs.map((blog, i) => {
                   return (
-                    <BlogCard
+                    <div
                       key={i}
-                      isDark={isDark}
-                      blog={{
-                        url: blog.link,
-                        title: blog.title,
-                        description: extractTextContent(blog.content)
-                      }}
-                    />
+                      className={
+                        isDark
+                          ? "dark-mode project-card project-card-dark"
+                          : "project-card project-card-light"
+                      }
+                    >
+                      <div className="project-detail">
+                        <h5
+                          className={
+                            isDark ? "dark-mode card-title" : "card-title"
+                          }
+                        >
+                          {blog.title || `Blog ${i + 1}`}
+                        </h5>
+                        <p
+                          className={
+                            isDark
+                              ? "dark-mode card-subtitle"
+                              : "card-subtitle"
+                          }
+                        >
+                          {extractTextContent(blog.content)}
+                        </p>
+                        <div className="project-card-footer">
+                          <span
+                            className={isDark ? "dark-mode project-tag" : "project-tag"}
+                            onClick={() => openUrlInNewTab(blog.link)}
+                          >
+                            Ler no Medium
+                          </span>
+                        </div>
+                      </div>
+                    </div>
                   );
                 })}
           </div>
