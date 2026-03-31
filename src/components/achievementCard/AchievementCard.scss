@@ -1,9 +1,10 @@
 @import "../../_globalColor";
 
 .card-image {
+  width: 100%;
   max-width: 100%;
   height: auto;
-  width: 250px;
+  display: block;
 }
 .card-title {
   color: $titleColor;
@@ -38,16 +39,17 @@
 }
 .certificate-image-div {
   position: relative;
-  height: 250px;
+  height: auto;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem 0;
 }
 .achievement-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
 }
 .certificate-card-footer {
   display: flex;
@@ -55,6 +57,20 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .achievement-cards-div {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-card {
+    padding: 1rem;
+  }
+
+  .certificate-image-div {
+    padding: 0.75rem 0;
+  }
+}
+
 .certificate-card-footer span.certificate-tag {
   background: $buttonColor;
   color: $lightBackground3;
